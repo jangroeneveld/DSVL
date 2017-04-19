@@ -17,6 +17,9 @@ import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
 import { RestaurantsComponent } from './restaurants/restaurants.component';
 
+//Services
+import { RestaurantsService } from './services/restaurants.service';
+
 @NgModule({
 	declarations: [
 		AppComponent,
@@ -31,6 +34,9 @@ import { RestaurantsComponent } from './restaurants/restaurants.component';
 		ReactiveFormsModule,
 		HttpModule,
 		RouterModule.forRoot(rootRouterConfig, { useHash: true })
+	],
+	providers: [
+		RestaurantsService
 	],
 	bootstrap: [AppComponent]
 })

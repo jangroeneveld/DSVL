@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RestaurantsService } from '../services/restaurants.service';
 
 @Component({
     selector: 'restaurants',
@@ -6,7 +7,8 @@ import { Component } from '@angular/core';
     styleUrls: ['./restaurants.component.scss']
 })
 export class RestaurantsComponent{
-    constructor(){
-        console.log('restaurants loaded');
+    restaurants: Array<any>;
+    constructor(private restaurantsService: RestaurantsService){
+        this.restaurants = restaurantsService.getRestaurants().slice(0, 3);
     }
 }

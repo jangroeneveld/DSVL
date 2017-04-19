@@ -1,4 +1,11 @@
 <div class="restaurants-container">
-    <button md-raised-button>Button</button>
-    <md-checkbox>Check me</md-checkbox>
+    <div *ngFor="let rest of restaurants" class="restaurant" style="background-image: url('http://whalebonemag.com/wp-content/uploads/2015/08/DSC_4647-Edit-1050x701.jpg')">
+        <div class="details">
+            <div class="name">{{rest.name}}</div>
+            91%
+            <br>
+            Cuisine:
+            {{rest.cuisine}}
+        </div>
+    </div>
 </div>
