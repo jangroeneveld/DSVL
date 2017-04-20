@@ -19,6 +19,7 @@ import { RestaurantsComponent } from './restaurants/restaurants.component';
 
 //Services
 import { RestaurantsService } from './services/restaurants.service';
+import { PubSub } from './shared/PubSub';
 
 @NgModule({
 	declarations: [
@@ -36,7 +37,8 @@ import { RestaurantsService } from './services/restaurants.service';
 		RouterModule.forRoot(rootRouterConfig, { useHash: true })
 	],
 	providers: [
-		RestaurantsService
+		RestaurantsService,
+		PubSub
 	],
 	bootstrap: [AppComponent]
 })
