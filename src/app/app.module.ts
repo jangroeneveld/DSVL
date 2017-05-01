@@ -15,16 +15,19 @@ import 'hammerjs';
 //Components
 import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
+import { RestaurantComponent } from './restaurant/restaurant.component';
 import { RestaurantsComponent } from './restaurants/restaurants.component';
 
-//Services
-import { RestaurantsService } from './services/restaurants.service';
+//Shared
 import { PubSub } from './shared/PubSub';
+import { RestaurantsService } from './services/restaurants.service';
+import { ViewModel } from './shared/ViewModel';
 
 @NgModule({
 	declarations: [
 		AppComponent,
 		LandingComponent,
+		RestaurantComponent,
 		RestaurantsComponent
 	],
 	imports: [
@@ -37,8 +40,9 @@ import { PubSub } from './shared/PubSub';
 		RouterModule.forRoot(rootRouterConfig, { useHash: true })
 	],
 	providers: [
+		PubSub,
 		RestaurantsService,
-		PubSub
+		ViewModel
 	],
 	bootstrap: [AppComponent]
 })

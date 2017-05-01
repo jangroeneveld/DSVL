@@ -1,0 +1,50 @@
+@import '../../styles/styles.scss';
+
+$line-height: 26px;
+
+.details{
+    height: 100%;
+    width: 100%;
+
+    .details-image{
+        height: 20%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center-center;
+        background-image: url('http://www.lorempixel.com/800/300/food');
+    }
+
+    .details-text{
+        color: $off-black;
+        text-align: center;
+        line-height: $line-height;
+        height: 20%;
+        background: $off-white;
+        overflow: scroll;
+    }
+
+    .ratings{
+        height: 45%;
+        background: $orange
+    }
+
+    .calls-to-action{
+        height: 15%;
+        display:flex;
+        justify-content:space-between;
+        background-color: $off-white;
+
+        .call-to-action{
+            width: 15%;
+            height:0;
+            padding-top: calc(15% - 2px);
+            background-color: $off-white;
+            border-radius: 50%;
+            border: 1px solid $orange;
+            margin: auto;
+            background-size: 60%;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+    }
+}
