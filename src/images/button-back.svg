@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-terug_knop);
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #df772b;
+        stroke-width: 1.5px;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-terug_knop">
+      <rect width="200" height="200"/>
+    </clipPath>
+  </defs>
+  <g id="terug_knop" data-name="terug knop" class="cls-1">
+    <g id="Group_1" data-name="Group 1" transform="translate(69 70)">
+      <g id="Ellipse_1" data-name="Ellipse 1" class="cls-2" transform="translate(14 13)">
+        <circle class="cls-3" cx="17.093" cy="17.093" r="17.093"/>
+        <circle class="cls-4" cx="17.093" cy="17.093" r="16.343"/>
+      </g>
+      <path id="Path_1" data-name="Path 1" class="cls-2" d="M416.672,1407.857l-10.443,7.945,10.443,7.945" transform="translate(-380.729 -1385.357)"/>
+    </g>
+  </g>
+</svg>

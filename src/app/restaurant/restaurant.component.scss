@@ -45,6 +45,18 @@ $line-height: 26px;
             background-size: 60%;
             background-position: center center;
             background-repeat: no-repeat;
+
+            &.phone{
+                background-image: url('../../images/phone-call.svg');
+            }
+
+            &.route{
+                background-image: url('../../images/compass.svg');
+            }
+
+            &.web{
+                background-image: url('../../images/earth.svg');
+            }
         }
     }
 }

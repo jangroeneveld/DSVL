@@ -21,7 +21,6 @@ import { RestaurantsComponent } from './restaurants/restaurants.component';
 //Shared
 import { PubSub } from './shared/PubSub';
 import { RestaurantsService } from './services/restaurants.service';
-import { ViewModel } from './shared/ViewModel';
 
 @NgModule({
 	declarations: [
@@ -41,8 +40,7 @@ import { ViewModel } from './shared/ViewModel';
 	],
 	providers: [
 		PubSub,
-		RestaurantsService,
-		ViewModel
+		RestaurantsService
 	],
 	bootstrap: [AppComponent]
 })
