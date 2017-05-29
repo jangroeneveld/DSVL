@@ -1,0 +1,214 @@
+@font-face {
+    font-family: JosefinSans Regular;
+    src: url(./assets/fonts/JosefinSans/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: JosefinSans Bold;
+    src: url(./assets/fonts/JosefinSans/JosefinSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: JosefinSans Thin;
+    src: url(./assets/fonts/JosefinSans/JosefinSans-Thin.ttf);
+}
+
+* { 
+	font-family: JosefinSans Regular;
+}
+
+p{
+	margin: 5px;
+}
+
+.subtitle{
+	color:white;
+	font-family: JosefinSans Bold;
+	font-size: 20px;
+}
+
+.explainer-white{
+	color:white;
+	font-family: JosefinSans Regular;
+}
+
+.explainer-black{
+	color:black;
+	font-family: JosefinSans Regular;
+}
+
+.material-icons{
+	color: black;
+}
+
+.options-container {
+    -moz-column-count: 5;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 5;
+    -webkit-column-gap: 10px;
+    column-count: 5;
+    column-gap: 10px;
+    width: 100%;
+}
+
+.options-container .restaurant-option {
+    display: inline-block;
+    width: 100%;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+menu{
+	margin:0;
+	padding:0;
+}
+
+nav{
+	background-color:white;
+	box-shadow:inherit;
+}
+
+h4 {
+    margin: -5px 0 0 0;
+}
+
+@media only screen and (min-width: 992px){
+	nav {
+		display:none;
+	}
+}
+
+a {
+    position: relative;
+	color: black;
+}
+
+a::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #ef6c00;
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: color 0.1s,transform 0.4s ease-out;
+}
+
+a:hover::before, a:focus::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
+
+span.badge {
+	color: white;
+	background-color: #ef6c00 !important;
+	min-width: inherit;
+	padding: 0 5px;
+	border-radius: 50%;
+}
+
+.profile-image{
+	vertical-align: middle;
+	padding-top:3px;
+}
+
+.row-carousel{
+	padding-top:3px;
+}
+
+.gradient:after {
+	display: block;
+	position: relative;
+	cursor:pointer;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 140%);
+	margin-top: -200px;
+	height: 200px;
+	content: '';
+	opacity: 1;
+	transition: opacity .2s ease-out;
+}
+
+.gradient:hover::after {
+	opacity: 0;
+}
+
+.grid figure {
+    float: none;
+    max-width: none;
+    max-height: none;
+    background: none;
+	margin: 0px 0%;
+	border: 3px solid white;
+    box-sizing: border-box;
+}
+
+.image{
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: auto;
+    height: 400px;
+}
+
+figure.effect-zoe figcaption {
+    height: 3em;
+	opacity: 0.8;
+}
+
+figure.effect-zoe p.description {
+	bottom: 3em;
+}
+
+.row{
+	margin-bottom:0px;
+}
+
+.row .col {
+    padding: 0rem !important;
+}
+
+.carousel{
+	margin-left:0 !important;
+	margin-right:0 !important;
+	height:140px;
+}
+
+.no-padding{
+	padding: inherit !important;
+}
+
+.carousel-slider{
+	height:140px !important;
+}
+
+.quote{
+	position: absolute;
+	padding-top: 40px;
+	left: 0;
+	right: 0;
+}
+
+.divider {
+    height: 2px;
+	margin: 10px auto;
+    overflow: hidden;
+    background-color: #e0e0e0;
+	width:370px;
+}
+
+.full{
+	display: inline !important;
+}
+
+.row-carousel{
+	margin-bottom:3px;
+}
+
+.responsive-img{
+	padding-left:3px;
+	padding-right:3px;
+}

@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "brand": "1",
+      "image": "app/assets/img/food1.jpg",
+      "color": "Gray",
+      "height": "200px"
+    },
+    {
+      "brand": "2",
+      "image": "app/assets/img/food2.jpg",
+      "color": "Gray",
+      "height": "400px"
+    },
+    {
+      "brand": "3",
+      "image": "app/assets/img/food3.jpg",
+      "color": "Gray",
+      "height": "400px"
+    },
+    {
+      "brand": "4",
+      "image": "app/assets/img/food1.jpg",
+      "color": "Gray",
+      "height": "200px"
+    },
+    {
+      "brand": "5",
+      "image": "app/assets/img/food4.jpg",
+      "color": "Gray",
+      "height": "300px"
+    },
+    {
+      "brand": "6",
+      "image": "app/assets/img/food5.jpg",
+      "color": "Gray",
+      "height": "300px"
+    },
+    {
+      "brand": "7",
+      "image": "app/assets/img/food6.jpg",
+      "color": "Gray",
+      "height": "200px"
+    },
+    {
+      "brand": "8",
+      "image": "app/assets/img/carousel.jpg",
+      "color": "Blue",
+      "height": "400px"
+    },
+    {
+      "brand": "9",
+      "image": "app/assets/img/food1.jpg",
+      "color": "Gray",
+      "height": "300px"
+    },
+    {
+      "brand": "10",
+      "image": "app/assets/img/food2.jpg",
+      "color": "Blue",
+      "height": "300px"
+    } 
+  ]
+}

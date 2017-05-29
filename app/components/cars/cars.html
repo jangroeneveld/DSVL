@@ -1,0 +1,14 @@
+<div class="options-container">
+  <div class="restaurant-option" *ngFor="let item of cars | async" (click)="select(item)">
+    <div class="activity" [style.height]=item.height>
+      <div class="activity-image" [style.backgroundImage]="'url('+ item.image +')'"></div>
+      <div class="activity-text">{{ item.color }}</div>
+      <div class="activity-title">{{ item.brand }}</div>
+    </div>
+  </div>
+</div>
+
+<div class="alert alert-info" *ngIf="selectedCar" [@showSelected]="showSelected">
+  <button type="button" class="close" (click)="closeSelected()">&times;</button>
+  <strong>{{selectedCar.brand}}</strong> {{selectedCar.color}}
+</div>

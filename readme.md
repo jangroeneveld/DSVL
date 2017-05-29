@@ -1,13 +1,26 @@
-## deSmaakvanLeeuwarden
+# Angular 2 Visual Studio and vs code Starter
+This is a startup project for Angular 2.0.0-rc6 in vscode or Visual Studio. you can read the post [here](https://olepetterdahlmann.com/2016/08/17/angular-2-in-visual-studio-2015/)
 
-A simple starter project demonstrating the basic concepts of Angular 2.
+- Components
+- Services with observables and promise
+- Routing
+- @NgModule
+- Animations
+
+## Install
+
+Download the zip add all the files to the root of your project folder then run:
+
+```sh
+npm install
+```
+(or do a git clone https://github.com/opdahlmann/Angular2Starter.git from your folder)
 
 
-### Usage
-- Make sure you have [node.js](https://nodejs.org/) installed version 5+
-- Make sure you have NPM installed version 3+
-- `WINDOWS ONLY` run `npm install -g webpack webpack-dev-server typings typescript` to install global dependencies
-- run `npm install` to install dependencies
-- run `npm start` to fire up dev server
-- open browser to [`http://localhost:3000`](http://localhost:3000)
-- if you want to use other port, open `package.json` file, then change port in `--port 3000` script
+Start the project by navigating to your project folder in cmd. and type
+
+```sh
+npm start
+```
+
+
